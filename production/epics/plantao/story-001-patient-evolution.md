@@ -1,12 +1,12 @@
 # Story 001: Evolução do paciente
 
 > **Epic**: Plantão
-> **Status**: Ready
+> **Status**: In Progress
 > **Layer**: Core
 > **Type**: Logic
 > **Estimate**: M
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: [set by /dev-story when implementation begins]
+> **Last Updated**: 2026-10-28
 
 ## Context
 
