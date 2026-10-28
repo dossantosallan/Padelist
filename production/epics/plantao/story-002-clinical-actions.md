@@ -1,12 +1,12 @@
 # Story 002: As 5 ações clínicas
 
 > **Epic**: Plantão
-> **Status**: Ready
+> **Status**: In Progress
 > **Layer**: Core
 > **Type**: Logic
 > **Estimate**: M
 > **Manifest Version**: N/A (minimal — no control manifest)
-> **Last Updated**: [set by /dev-story when implementation begins]
+> **Last Updated**: 2026-10-28
 
 ## Context
 
@@ -55,10 +55,11 @@
 
 - `src/core/clinical_action.gd`
 - `src/core/action_resolver.gd`
-- `assets/data/actions/*.tres`
-- `tests/unit/plantao/clinical_actions_test.gd`
-
----
+- `assets/data/actions/o2_iot.tres`
+- `assets/data/actions/volume.tres`
+- `assets/data/actions/vasopressor.tres`
+- `assets/data/actions/antibiotic.tres`
+- `assets/data/actions/call_specialist.tres`
 
 ## QA Test Cases
 

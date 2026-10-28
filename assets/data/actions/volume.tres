@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ClinicalAction" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/core/clinical_action.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"volume"
+display_name = "Volume"
+time_cost_minutes = 20
+staff_cost = 5
+treats_conditions = Array[StringName]([&"hypovolemia"])
+penalty_pa = 0
+penalty_fc = 0
+penalty_spo2 = 0
+penalty_consciousness = 0
