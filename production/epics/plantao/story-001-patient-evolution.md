@@ -56,10 +56,8 @@
 
 - `src/core/patient.gd`
 - `src/core/patient_evolution.gd`
+- `src/core/patient_rules.gd`
 - `assets/data/patient_rules.tres`
-- `tests/unit/plantao/patient_evolution_test.gd`
-
----
 
 ## QA Test Cases
 

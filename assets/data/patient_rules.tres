@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="PatientRules" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/core/patient_rules.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+pa_unstable_at_or_below = 100
+pa_critical_at_or_below = 80
+pa_dead_at_or_below = 40
+fc_unstable_at_or_above = 110
+fc_critical_at_or_above = 130
+spo2_unstable_at_or_below = 93
+spo2_critical_at_or_below = 88
+spo2_dead_at_or_below = 70
+consciousness_unstable_at_or_below = 13
+consciousness_critical_at_or_below = 9
+consciousness_dead_at_or_below = 3
+stable_noise_pa = 3
+stable_noise_fc = 3
+stable_noise_spo2 = 1
+worsen_pa = 6
+worsen_fc = 5
+worsen_spo2 = 2
+worsen_consciousness = 1
+worsen_jitter = 2
+improve_pa = 6
+improve_fc = 5
+improve_spo2 = 2
+improve_consciousness = 1
+condition_worsen_multipliers = {}
+default_worsen_multiplier = 1.0
+baseline_pa = 120
+baseline_fc = 80
+baseline_spo2 = 98
+baseline_consciousness = 15
