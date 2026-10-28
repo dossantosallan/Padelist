@@ -1,7 +1,7 @@
 # Story 001: Evolução do paciente
 
 > **Epic**: Plantão
-> **Status**: In Progress
+> **Status**: Complete
 > **Layer**: Core
 > **Type**: Logic
 > **Estimate**: M
@@ -78,3 +78,10 @@
 
 - Depends on: None
 - Unlocks: `production/epics/plantao/story-002-clinical-actions.md`, `production/epics/plantao/story-004-shift-clock.md`
+
+## Completion Notes
+**Completed**: 2026-10-28
+**Criteria**: 6/6 passing (4 confirmed by the developer, no test run in a session without Godot)
+**Deviations**: None. Extra file `src/core/patient_rules.gd` is listed under Files.
+**Test Evidence**: waived at qa.level minimal
+**Reviewed by**: self, no independent review
